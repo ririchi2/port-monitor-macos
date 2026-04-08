@@ -42,8 +42,9 @@
 </head>
 <body>
   <header>
-    <span>⚡ Puertos en uso</span>
     <button tabindex="-1" onclick="load()">↻</button>
+    <span>⚡ Puertos en uso</span>
+    <button tabindex="-1" onclick="window.api.quit()">✕</button>
   </header>
   <div class="port-list" id="list">
     <div class="empty">Cargando...</div>

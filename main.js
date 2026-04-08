@@ -78,3 +78,4 @@ function parsePorts(output) {
 // Exponer al renderer via IPC
 const { ipcMain } = require('electron')
 ipcMain.handle('get-ports', () => getPorts())
+ipcMain.handle('quit-app', () => app.quit())
