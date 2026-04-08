@@ -23,6 +23,8 @@ app.whenReady().then(() => {
     frame: false,
     resizable: false,
     alwaysOnTop: true,
+    vibrancy: 'hud',
+    backgroundColor: '#00000000',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
